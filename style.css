@@ -1,0 +1,126 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+section p {
+  color: #222;
+}
+
+.workshop-title {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 400;
+  font-size: 23.5px;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+section {
+  padding: 1.5em 4%;
+}
+
+header {
+  width: 94%;
+  padding: 3em 4%;
+  background-image: url("background_kellysikkema.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #ed3d30;
+}
+
+nav {
+  padding: .8em 0;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  font-size: 16px;
+  z-index: 999;
+}
+
+#shrink-nav {
+  transition: 0.2s ease-out;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 1.25%;
+  transition: color .2s ease-out;
+}
+
+nav a:hover {
+  color: #ffc05c;
+}
+
+.cfp {
+  background-color: #fff4e3;
+}
+
+.structure__description img {
+  width: 40%;
+}
+
+.structure__description {
+  text-align: center;
+  font-size: 90%;
+  line-height: 1.4em;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1em;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+footer a {
+  color: #333;
+}
+
+/* 48em = 768px */
+@media (min-width: 48em) { 
+  body {
+    font-size: 19px;
+    line-height: 1.7em;
+  }
+  
+  header, section {
+    padding-right: 23%;
+    padding-left: 23%;
+    width: 54%;
+  }
+  
+  .workshop-title {
+    font-size: 42px;
+    max-width: 21em;
+  }
+  
+  h2 {
+    font-size: 34px;
+  }
+  
+  .structure__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+}
