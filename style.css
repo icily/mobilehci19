@@ -45,6 +45,10 @@ a {
   color: #ed3d30;
 }
 
+section a:hover {
+  opacity: 0.5;
+}
+
 nav {
   padding: .8em 0;
   background: rgba(0, 0, 0, 0.3);
@@ -67,11 +71,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffc05c;
+  color: #ed3d30;
 }
 
-.cfp {
-  background-color: #fff4e3;
+.cfp,
+.cfp p {
+  background-color: #b84a28;
+  color: #fff;
 }
 
 .structure__description img {
@@ -123,4 +129,10 @@ footer a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
   }
+  
+  .cfp {
+    padding: 1.5em 4%;
+    margin: 0 19%;
+  }
+  
 }
