@@ -26,6 +26,10 @@ h2 {
   font-size: 22px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 section {
   padding: 1.5em 4%;
 }
@@ -74,20 +78,51 @@ nav a:hover {
   color: #ed3d30;
 }
 
-.cfp,
-.cfp p {
-  background-color: #b84a28;
-  color: #fff;
+.cfp {
+  background-color: #fafafa;
+}
+
+.cfp h1 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.2em;
+  color: #555;
+}
+
+.cfp h2 {
+  color: #ed3d30;
+}
+
+.cfp h3 {
+  margin-top: 2.3em;
+}
+
+.cfp__sub {
+  font-size: 72%;
+  opacity: 0.7;
+}
+
+.structure h3 {
+  text-align: center;
 }
 
 .structure__description img {
   width: 40%;
+  margin-top: 1em;
 }
 
 .structure__description {
   text-align: center;
-  font-size: 90%;
-  line-height: 1.4em;
+  font-size: 85%;
+  line-height: 1.5em;
+}
+
+.structure__agenda {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: .8em;
+  margin-bottom: 2em;
 }
 
 footer {
@@ -124,6 +159,10 @@ footer a {
     font-size: 34px;
   }
   
+  h3 {
+    font-size: 22px;
+  }
+  
   .structure__description {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -135,4 +174,7 @@ footer a {
     margin: 0 19%;
   }
   
+  .cfp h1 {
+    font-size: 28px;
+  }
 }
