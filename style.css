@@ -78,6 +78,15 @@ nav a:hover {
   color: #ed3d30;
 }
 
+.abstract-image img{
+  width: 70%;
+  margin: .3em 0;
+}
+
+.abstract-image {
+  text-align: center;
+}
+
 .cfp {
   background-color: #fafafa;
 }
@@ -163,6 +172,11 @@ footer a {
   
   h3 {
     font-size: 22px;
+  }
+  
+  .abstract-image img{
+    width: 46%;
+    margin-right: 3%
   }
   
   .structure__description {
