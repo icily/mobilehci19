@@ -96,12 +96,14 @@ nav a:hover {
 
 .cfp h3 {
   margin-top: 2.3em;
+  text-align: center;
 }
 
 .cfp__sub {
   font-size: 72%;
   opacity: 0.7;
 }
+
 
 .structure h3 {
   text-align: center;
@@ -121,7 +123,7 @@ nav a:hover {
 .structure__agenda {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-gap: .8em;
+  grid-gap: .45em;
   margin-bottom: 2em;
 }
 
